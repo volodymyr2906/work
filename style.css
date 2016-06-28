@@ -1,0 +1,88 @@
+body,
+html{
+        height:auto;
+        width:100%;
+    }
+.main header 
+    { position: relative;
+    }
+body.main header 
+  	{
+      	background-image:url("fon.jpg");
+      	background-size: 100% 350px;
+      	background-repeat: no-repeat;
+      	height: 350px
+  	}
+.main h1{
+    text-align: center;
+    margin-top: 60px;
+    color:#000;
+    font-size: 90px;
+    font-family: Arial;
+    text-shadow: 1px 1px 2px #fff;
+    opacity: 0.8
+}
+.main ul {
+    padding: 15px;
+    text-align: center;
+    margin: 0px auto;
+    }    
+.main li {
+    width: 130px;
+    height: 30px;
+    background-image:none;
+    margin: 0px 30px;
+    list-style-type:none;
+    display:inline-block;
+    padding: 10px;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    float: center;
+}
+.main a { display:block;
+    color:yellow;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+.team table{
+    width: 100%;
+    min-height:30px;
+}
+.team td{
+    width: 50%;
+    color:#000;
+    text-align: center;
+}	
+.team img{
+    float:left;
+    margin-right: 40px;
+    
+}
+.clr{
+    clear: both;
+}
+.team img+span~span{
+    margin-top: 10px;
+    display: block;
+}
+.team img+span{
+    margin-top: 40px;
+    display: block;
+}
+.team .main-img{
+    max-width: 60%;
+    display: block;
+    margin:0px auto;
+    float: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.div1{
+    display: block;
+    width: 810px;
+    margin:0px auto;
+    
+}
